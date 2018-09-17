@@ -1,21 +1,16 @@
 import React, {Component} from "react";
 import {connect} from "react-redux";
-import{bindActionCreators} from "redux";
-import {finishTask} from "../actions";
 
 
 
  class TodoItem extends Component{
-    constructor(props){
-        super(props)
 
-    }
 
-x
+
 
     render() {
 
-        {console.log("fuk",this.props.task)}
+        console.log("fuk",this.props.task)
         return (
             <div className="container" >
                 <div key={this.props.task.task}

@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import TodoList from "../containers/TodoList";
 import AddTask from "./AddTask";
-import _ from "lodash";
 import ControlledPopup from "./Popup";
 
 export default class App extends Component {
