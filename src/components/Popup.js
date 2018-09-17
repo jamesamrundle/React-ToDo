@@ -1,7 +1,7 @@
 import React from "react";
 // import Warper from "./Warper";
 import Popup from "reactjs-popup";
-import AddTask from "./AddTask";
+//import AddTask from "./AddTask";
 import AddDetails from "./AddDetails"
 
 //
